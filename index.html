@@ -1,0 +1,444 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/105b8ab85c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container-fluid">
+         
+        <div class="cus-nav">
+            <!-- SIDE BAR BUTTON -->
+            <div class="open-btn">
+                <div class="togler-img">
+                    <img src="imgs/menu-bar2.png" alt="" onclick="openNav()" height="50px" width="50px">
+                </div>
+            </div>
+            
+            <div class="nav-links">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link selected" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-option">
+                <span><i class="fas fa-cog"></i></span>
+                <span><i class="far fa-envelope-open"></i></span>
+                <span><i class="fas fa-sign-out-alt"></i></span>
+            </div>
+        </div>
+        <!-- NAVBAR -->
+        <!-- SIDE BAR AREA -->
+        <div class="sidebar" id="mysidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="user">
+                   <div class="user-profile">
+                       <div class="user-img">
+                           <img src="imgs/user.png" alt="">
+                       </div>
+                       <div class="user-name">
+                           <p>Ahmad bashir</p>
+                       </div>
+                       <div class="user-desig">
+                           <p>Chief officer</p>
+                       </div>
+                       <div class="update-btn cus-btn">
+                            <button type="button" class="btn btn-primary">update profile</button>
+                       </div>
+                   </div>
+            </div>
+            <hr>
+            <div class="user-links">
+                <div class="cus-link selected">
+                    <a href="#">
+                        <span><i class="fa fa-laptop fa-2x"></i></span>
+                        <p>dashboard</p>
+                    </a>
+                </div>
+                <div class="cus-link">
+                    <a href="#">
+                        <span><i class="fa fa-laptop fa-2x"></i></span>
+                        <p>dashboard</p>
+                    </a>
+                </div>
+                <div class="cus-link">
+                    <a href="#">
+                        <span><i class="fa fa-laptop fa-2x"></i></span>
+                        <p>dashboard</p>
+                    </a>
+                </div>
+                <div class="cus-link">
+                    <a href="#">
+                        <span><i class="fa fa-laptop fa-2x"></i></span>
+                        <p>dashboard</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- MAIN AREA -->
+        <div class="user-details">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="user-left">
+                        <div class="user-image">
+                            <img src="imgs/user.png" alt="">
+                        </div>
+                        <div class="user-btns cus-btn">
+                            <button type="button" class="btn btn-primary cus-btn">follow</button>
+                            <button type="button" class="btn btn-success cus-btn">message</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="user-main-info">
+                        <p>ahmad bashir</p>
+                        <p>chief officer</p>
+                        <p>age 27</p>
+                        <p>from: <span>islamabad</span></p>
+                        <p>company: <span>abcd data office</span></p>
+                    </div>
+                    <hr>
+                    <div class="user-followers">
+                        <div class="cus-follow">
+                            <p>followers</p>
+                            <p>50</p>
+                        </div>
+                        <div class="cus-follow">
+                            <p>followers</p>
+                            <p>50</p>
+                        </div>
+                        <div class="cus-follow">
+                            <p>followers</p>
+                            <p>50</p>
+                        </div>
+                        <div class="cus-follow">
+                            <p>followers</p>
+                            <p>50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ABOUT SECTION -->
+        <div class="about-heading">
+            <h2>about</h2>
+
+            <div class="row">
+                <!-- ABOUT CARD 1 -->
+                <div class="col-md-4 p-2 col-sm-12">
+                    <div class="cus-about-card" data-aos="flip-up" data-aos-duration="1000">
+                        <div class="card-1">
+                            <p>sailed</p>
+                        </div>
+                        <div class="card-2">
+                            <p>15 <span>ships</span></p>
+                        </div>
+                        <div class="card-3">
+                            <div class="card-inner-1">
+                                <p>Master</p>
+                                <p>3</p>
+                            </div>
+                            <div class="card-inner-2">
+                                <p>Master</p>
+                                <p>3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ABOUT CARD 2 -->
+                <div class="col-md-4 p-2 col-sm-12">
+                    <div class="cus-about-card" data-aos="flip-up" data-aos-duration="2000">
+                        <div class="card-1">
+                            <p>sailed</p>
+                        </div>
+                        <div class="card-2">
+                            <p>15 <span>ships</span></p>
+                        </div>
+                        <div class="card-3">
+                            <div class="card-inner-1">
+                                <p>Master</p>
+                                <p>3</p>
+                            </div>
+                            <div class="card-inner-2">
+                                <p>Master</p>
+                                <p>3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ABOUT CARD 2 -->
+                <div class="col-md-4 p-2 col-sm-12">
+                    <div class="cus-about-card" data-aos="flip-up" data-aos-duration="3000">
+                        <div class="card-1">
+                            <p>sailed</p>
+                        </div>
+                        <div class="card-2">
+                            <p>15 <span>ships</span></p>
+                        </div>
+                        <div class="card-3">
+                            <div class="card-inner-1">
+                                <p>Master</p>
+                                <p>3</p>
+                            </div>
+                            <div class="card-inner-2">
+                                <p>Master</p>
+                                <p>3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feed-heading">
+            <h2>interest</h2>
+        </div>
+        <div class="cus-carosel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="carosel-inner">
+                        <div class="carosel-image">
+                            <img src="imgs/img.png" alt="">
+                        </div>
+                        <div class="carosel-detail pl-3">
+                            <h3>ship navigation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque harum culpa repellendus nemo perferendis exercitationem iure sit autem provident libero maiores, recusandae accusantium est aspernatur ipsa vel, rem eius et?</p>
+                        </div>
+                        <hr>
+                        <div class="carosel-last pl-3">
+                            <div class="carosel-followers">
+                                <p>followers</p>
+                                <p>512</p>
+                            </div>
+                            <div class="cus-btn follow-btn">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carosel-inner">
+                        <div class="carosel-image">
+                            <img src="imgs/img.png" alt="">
+                        </div>
+                        <div class="carosel-detail pl-3">
+                            <h3>ship navigation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque harum culpa repellendus nemo perferendis exercitationem iure sit autem provident libero maiores, recusandae accusantium est aspernatur ipsa vel, rem eius et?</p>
+                        </div>
+                        <hr>
+                        <div class="carosel-last pl-3">
+                            <div class="carosel-followers">
+                                <p>followers</p>
+                                <p>512</p>
+                            </div>
+                            <div class="cus-btn follow-btn">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carosel-inner">
+                        <div class="carosel-image">
+                            <img src="imgs/img.png" alt="">
+                        </div>
+                        <div class="carosel-detail pl-3">
+                            <h3>ship navigation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque harum culpa repellendus nemo perferendis exercitationem iure sit autem provident libero maiores, recusandae accusantium est aspernatur ipsa vel, rem eius et?</p>
+                        </div>
+                        <hr>
+                        <div class="carosel-last pl-3">
+                            <div class="carosel-followers">
+                                <p>followers</p>
+                                <p>512</p>
+                            </div>
+                            <div class="cus-btn follow-btn">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carosel-inner">
+                        <div class="carosel-image">
+                            <img src="imgs/img.png" alt="">
+                        </div>
+                        <div class="carosel-detail pl-3">
+                            <h3>ship navigation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque harum culpa repellendus nemo perferendis exercitationem iure sit autem provident libero maiores, recusandae accusantium est aspernatur ipsa vel, rem eius et?</p>
+                        </div>
+                        <hr>
+                        <div class="carosel-last pl-3">
+                            <div class="carosel-followers">
+                                <p>followers</p>
+                                <p>512</p>
+                            </div>
+                            <div class="cus-btn follow-btn">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carosel-inner">
+                        <div class="carosel-image">
+                            <img src="imgs/img.png" alt="">
+                        </div>
+                        <div class="carosel-detail pl-3">
+                            <h3>ship navigation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque harum culpa repellendus nemo perferendis exercitationem iure sit autem provident libero maiores, recusandae accusantium est aspernatur ipsa vel, rem eius et?</p>
+                        </div>
+                        <hr>
+                        <div class="carosel-last pl-3">
+                            <div class="carosel-followers">
+                                <p>followers</p>
+                                <p>512</p>
+                            </div>
+                            <div class="cus-btn follow-btn">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carosel-inner">
+                        <div class="carosel-image">
+                            <img src="imgs/img.png" alt="">
+                        </div>
+                        <div class="carosel-detail pl-3">
+                            <h3>ship navigation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque harum culpa repellendus nemo perferendis exercitationem iure sit autem provident libero maiores, recusandae accusantium est aspernatur ipsa vel, rem eius et?</p>
+                        </div>
+                        <hr>
+                        <div class="carosel-last pl-3">
+                            <div class="carosel-followers">
+                                <p>followers</p>
+                                <p>512</p>
+                            </div>
+                            <div class="cus-btn follow-btn">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carosel-inner">
+                        <div class="carosel-image">
+                            <img src="imgs/img.png" alt="">
+                        </div>
+                        <div class="carosel-detail pl-3">
+                            <h3>ship navigation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque harum culpa repellendus nemo perferendis exercitationem iure sit autem provident libero maiores, recusandae accusantium est aspernatur ipsa vel, rem eius et?</p>
+                        </div>
+                        <hr>
+                        <div class="carosel-last pl-3">
+                            <div class="carosel-followers">
+                                <p>followers</p>
+                                <p>512</p>
+                            </div>
+                            <div class="cus-btn follow-btn">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FEED AREA -->
+        <div class="feed-area">
+            <div class="feed-heading">
+                <h2>Feed</h2>
+            </div>
+            <div class="feed-inner">
+                <div class="cus-feed">
+                    <div class="feedback-card">
+                        <div class="feed-info d-flex align-items-center flex-wrap">
+                            <img src="imgs/user.png" alt="">
+                            <p><span>capt bilal</span> started following you</p>
+                        </div>
+                        <div class="feed-option d-flex align-items-center">
+                            <div class="cus-btn pr-2">
+                                <button type="button" class="btn btn-primary pr-3 pl-3">follow</button>
+                            </div>
+                            <div class="feed-show-btn show-feed">
+                                <span ><i class="fas fa-ellipsis-h"  id="demi"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-hidden" id="div-1">
+                        <div class="blue-area">
+                            <div class="feed-image">
+                                <img src="imgs/user.png" alt="">
+                            </div>
+                            <div class="feed-user-name">
+                                <p>capt ahmad bilal</p>
+                                <p>chief officer</p>
+                            </div>
+                        </div>
+                        <div class="white-area">
+                            <div class="feed-followers d-flex flex-row align-items-center">
+                                <div class="cus-follow pr-2 d-flex flex-column align-items-center">
+                                    <p>followers</p>
+                                    <p>50</p>
+                                </div>
+                                <div class="cus-follow pr-2 d-flex flex-column align-items-center">
+                                    <p>followers</p>
+                                    <p>50</p>
+                                </div>
+                                <div class="cus-follow pr-2 d-flex flex-column align-items-center">
+                                    <p>followers</p>
+                                    <p>50</p>
+                                </div>
+                                <div class="cus-follow d-flex flex-column align-items-center">
+                                    <p>followers</p>
+                                    <p>50</p>
+                                </div>
+                            </div>
+                            <div class="feed-contact-btn d-flex flex-row justify-content-around">
+                                <div class="feed-btn cus-btn">
+                                    <button type="button" class="btn btn-primary cus-btn">follow</button>
+                                    
+                                </div>
+                                <div class="msg-btn cus-btn">
+                                    <button type="button" class="btn btn-success cus-btn">message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
