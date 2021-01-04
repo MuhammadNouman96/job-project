@@ -1,14 +1,12 @@
 body{
-    font-family: sans-serif;
     background-color: #D8D8D8 !important;
+}
+*{
+    font-family: 'montserrat' sans-serif;
 }
 .cus-btn button{
     border-radius: 20px;
     font-size: 15px;
-}
-*{
-    margin:0px; 
-    padding: 0px;
 }
 /* SIDEBAR MENU AREA START */
 
@@ -20,9 +18,9 @@ body{
     left: 0px;
     bottom: 0px;
     overflow: auto;
-    background-color: #2E86C1;
+    background-color: #003cb3;
     display: none;
-    z-index: 1;
+    z-index: 100;
 }
 .open-btn{
     display: flex;
@@ -63,16 +61,16 @@ body{
     margin-bottom: 5px;
 }
 .user .user-profile .user-desig p{
-    color: blue;
+    color: #0066ff;
     font-weight: bold;
     text-transform: capitalize;
 }
 .user .update-btn button{
     color: #fff;
-    background: blue;
+    background-color:  transparent;
+    text-transform: capitalize;
 }
 .user .update-btn button:hover{
-    background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
     transition: 0.7s;
@@ -85,13 +83,18 @@ body{
     align-items: center;
     margin-top: 30px;
 }
+.user-links .cus-link:hover{
+    background-color: #003399;
+    transition: 0.7s;
+}
 .user-links .cus-link{
     width: 100%;
     padding: 10px 0px;
     margin-bottom: 25px;
 }
 .user-links .selected{
-    background-color: blue;
+    background-color: #003399;
+    opacity: 1;
 }
 .user-links .cus-link a{
     display: flex;
@@ -108,11 +111,9 @@ body{
 .user-links .cus-link a .fa-laptop{
     color: #fff;
     margin-bottom: 10px;
-    opacity: 0.8;
 }
 .user-links .cus-link a p{
     color: #fff;
-    opacity: 0.8;
     font-weight: 300;
     text-transform: uppercase;
     margin: 0px;
@@ -154,7 +155,7 @@ body{
     text-transform: capitalize;
 }
 .nav-links ul li a:hover{
-    color: blue;
+    color: #007bff;
     transition: 0.6s;
     transform: scale(1.2);
 }
@@ -179,7 +180,7 @@ body{
 .user-details{
     background-color: #fff;
     width: 100%;
-    box-shadow: #223140;
+    box-shadow: 4px 5px 5px #888888;
     padding: 20px 30px;
     margin-top: 40px;
 }
@@ -218,11 +219,18 @@ body{
     margin-bottom: 40px;
 }
 .user-main-info p{
-    color: grey;
+    color: #484848;
     font-weight: bold;
     text-transform: capitalize;
+    font-size: 17px;
+}
+.user-main-info p:nth-child(1){
+    color: #484848;
+    font-size: 20px;
+    font-weight: 600;
 }
 .user-main-info p span{
+    color: grey;
     font-weight: 500;
 }
 .user-main-info p:nth-child(2){
@@ -273,6 +281,7 @@ body{
     align-items: center;
     background-color: #fff;
     padding: 40px 0px;
+    box-shadow: 4px 5px 5px #888888;
 }
 .cus-about-card .card-1 p{
     color: grey;
@@ -321,8 +330,12 @@ body{
     padding: 30px;
     background-color: #fff;
 }
+.cus-carosel .owl-carousel .item{
+    box-shadow: 4px 5px 5px #888888;
+    border-radius: 8px;
+}
 .carosel-inner{
-    margin: 0px 10px;
+    margin: 10px;
 }
 .carosel-inner .carosel-image{
     margin-bottom: 30px;
@@ -390,6 +403,7 @@ body{
 .feed-inner .feedback-card{
     padding: 30px;
     background-color: #fff;
+    box-shadow: 4px 5px 5px #888888;
     width: 68%;
     display: flex;
     flex-direction: row;
@@ -472,6 +486,16 @@ body{
     }
     .user-main-info{
         margin-top: 30px;
+    }
+    .cus-feed .feed-hidden{
+        width: 50%;
+        top: 100%;
+    }
+}
+@media screen and (max-width:770px){
+    .cus-feed .feed-hidden{
+        left: 0px;
+        width: 80%;
     }
 }
 @media screen and (max-width:460px){
